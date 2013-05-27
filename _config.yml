@@ -2,11 +2,11 @@
 #      User Configs       #
 # ----------------------- #
 
-name: Mr Awesome
-title: Just a Legendary Person
-location: "Puppy Town - Rainbow City"
-email: all.about.u.project@gmail.com
-gravatar_photo: true
+name: Roberto Soares
+title: Software Engineer at Globo.com
+location: Rio de Janeiro - Brazil
+email: roberto.tech@gmail.com
+gravatar_photo: false
 # don't forget to edit your "about" on _includes/about.md
 # for more information about markdown, consider giving a look at some examples and basics in the follow urls:
 # http://daringfireball.net/projects/markdown/basics
@@ -20,16 +20,13 @@ gravatar_photo: true
 # Put your usernames here. Only usernames, without links.
 
 social:
-  facebook:
+  facebook: roberto.sof
   flickr:
   foursquare:
-# Note about github: write down your_username/your_repository if you want to show a repository page, instead of your github account.
-  github: recarreira/all_about_you
-# Note about google+: Your googleplus username should be that huge number in your url (example: for https://plus.google.com/u/1/112176414644635750645/posts, your username is 112176414644635750645).
-# For google+ pages, you may find this huge number written down 2 times. We only need it once.
-  googleplus: 112176414644635750645
-  lastfm: mr_awesome_aay
-  linkedin:
+  github: roberto
+  googleplus:
+  lastfm:
+  linkedin: rosoares
   quora:
   stackoverflow:
   twitter: AboutProject
@@ -39,11 +36,11 @@ social:
 
 links:
   -
-    title: "Put Stuff on My Cat! (caats <3)"
-    url: "http://stuffonmycat.com/"
+    title: "Resume"
+    url: "http://resume.linkedinlabs.com/k61po2u36"
   -
-    title: "Funny Dog! (so my dog don't have to be jealous)"
-    url: "http://www.funnydogsite.com/"
+    title: "Working with Rails Profile"
+    url: "http://workingwithrails.com/person/9376-roberto-soares"
 
 
 # ----------------------- #

@@ -1,3 +1,3 @@
-I love myself as much as I love candies. Yeah, I do love __candies__. And cats. And my dog. Also, _my dog love cats too_.
+I graduated from [UESC](http://uesc.br) with a Computer Science degree in 2006, worked at a Brazilian Research Facility called CEPEDI and cofounded Techmobil, a mobile and web development company. I've also worked at Bopia.com developing Ruby on Rails applications and at Todobebe Inc as Lead Developer.
 
-Seriously, you should love me. You wont regret. I promisse.
+I enjoy traveling, swimming, playing acoustic guitar and reading.
