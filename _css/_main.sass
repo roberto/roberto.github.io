@@ -1,0 +1,68 @@
+@import "bootstrap/variables"
+@import "bootstrap/mixins"
+@import "bootstrap/reset"
+@import "bootstrap/scaffolding"
+@import "bootstrap/grid"
+@import "bootstrap/layouts"
+
+@import url("http://fonts.googleapis.com/css?family=#{$name-font}:#{$name-weight}")
+@import url("http://fonts.googleapis.com/css?family=#{$title-font}:#{$title-weight}")
+@import url("http://fonts.googleapis.com/css?family=#{$text-font}:#{$text-weight}")
+
+
+@import "icons"
+
+body
+  background-color: $background-color
+  @if $background-image != none
+    background-image: url("../images/" + $background-image)
+  
+
+#main-box
+  margin: 30px
+  padding: 30px
+
+  background-color: $box-color
+  @if $box-border-rounded
+    @include border-radius($box-border-radius)
+
+
+  a
+    color: $link-color
+
+    &:hover
+      color: $link-hover-color
+
+  h1
+    color: $name-color
+    font-size: $name-size
+    font-family: $name-font
+    font-weight: $name-weight
+
+  h2
+    color: $title-color
+    font-size: $title-size
+    font-family: $title-font
+    font-weight: $title-weight
+
+  .text
+    color: $text-color
+
+  .text, a
+    font-size: $text-size
+    font-family: $text-font
+    font-weight: $text-weight
+
+    img
+      float: left
+      margin-right: 10px
+
+  .social-links
+    display: inline
+    list-style-type: none
+
+  hr
+    border-left: none
+    border-right: none
+    border-color: #DDD
+  
