@@ -20,16 +20,16 @@ gravatar_photo: false
 # Put your usernames here. Only usernames, without links.
 
 social:
-  facebook: roberto.sof
-  flickr:
-  foursquare:
   github: roberto
-  googleplus:
-  lastfm:
+  twitter: bt1
   linkedin: rosoares
-  quora:
+  lastfm: robertosoares
+  flickr: bt1
+  quora: Roberto-Soares-1
+  facebook:
+  googleplus:
   stackoverflow:
-  twitter: AboutProject
+  foursquare:
 
 
 # Now you should put your links.
