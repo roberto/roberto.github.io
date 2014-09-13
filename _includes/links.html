@@ -1,5 +1,11 @@
-  {% for s in site.social %}
-    {{ s | social_link }}
+<p>
+  {% for info in site.info %}
+    {% if info[1] %}{{ info | info_link }}<br>{% endif %}
+  {% endfor %}
+
+</p>
+  {% for social in site.social %}
+    {{ social | social_link }}
   {% endfor %}
 <hr/>
 <p>

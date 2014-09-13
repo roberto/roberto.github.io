@@ -8,14 +8,28 @@
 @import url("http://fonts.googleapis.com/css?family=#{$name-font}:#{$name-weight}")
 @import url("http://fonts.googleapis.com/css?family=#{$title-font}:#{$title-weight}")
 @import url("http://fonts.googleapis.com/css?family=#{$text-font}:#{$text-weight}")
-
+@import url("http://fonts.googleapis.com/css?family=#{$text-font}:#{$text-weight+300}")
 
 @import "icons"
 
 body
+  background-position: 0 0
+  background-size: 100%
   background-color: $background-color
+  @if $background-image-small != none
+    background-image: url("../images/" + $background-image-small)
+
+
+.bg
   @if $background-image != none
     background-image: url("../images/" + $background-image)
+  background-position: 0 0
+  background-size: 100%
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
   
 
 #main-box
@@ -25,7 +39,6 @@ body
   background-color: $box-color
   @if $box-border-rounded
     @include border-radius($box-border-radius)
-
 
   a
     color: $link-color

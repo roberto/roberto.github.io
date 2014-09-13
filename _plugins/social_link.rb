@@ -6,12 +6,18 @@ module Jekyll
       "flickr"        => "http://www.flickr.com/photos/%s/",
       "foursquare"    => "https://foursquare.com/%s",
       "github"        => "https://github.com/%s/",
+      "goodreads"     => "http://www.goodreads.com/user/show/%s",
       "googleplus"    => "https://plus.google.com/%s?rel=author",
+      "instagram"     => "http://instagram.com/%s",
+      "rdio"          => "http://www.rdio.com/people/%s/",
+      "grooveshark"   => "http://grooveshark.com/#!/%s",
       "lastfm"        => "http://www.lastfm.com.br/user/%s",
       "linkedin"      => "http://www.linkedin.com/in/%s",
       "quora"         => "http://www.quora.com/%s",
       "stackoverflow" => "http://stackoverflow.com/users/%s/",
-      "twitter"       => "http://twitter.com/%s"
+      "twitter"       => "http://twitter.com/%s",
+      "miiverse"      => "https://miiverse.nintendo.net/users/%s",
+      "rss"           => "%s"
     }
 
     def social_link(input)
@@ -26,6 +32,20 @@ module Jekyll
       url = input["url"]
 
       "<a href='#{url}' title='#{title}'>#{title}</a>"
+    end
+    def info_link(input)
+      info, detail = input
+      return "" if detail.nil? || detail.to_s.empty?
+
+      case info
+      when "location"
+        url = "https://maps.google.com.br/maps?q=%s" % detail.gsub(" ", "+")
+        "<i class='icon-location'></i><a href='#{url}' title='Google Maps'>#{detail}</a>"
+      when "email"
+        "<i class='icon-#{info}'></i><a href='mailto:#{detail}'>#{detail}</a>"
+      else
+        "<i class='icon-#{info}'></i>#{detail}"
+      end
     end
   end
 end
