@@ -3,7 +3,7 @@
 # ----------------------- #
 
 name: Roberto Soares
-title: Software Engineer at <a href="http://globo.com/">Globo.com</a>
+title: Consultant and Eternal Learner at <a href="http://www.thoughtworks.com/"><b>Thought</b>Works</a>
 gravatar_email: roberto.tech@gmail.com
 # don't forget to edit your "about" on _includes/about.md
 # for more information about markdown, consider giving a look at some examples and basics in the follow urls:
@@ -16,11 +16,11 @@ gravatar_email: roberto.tech@gmail.com
 # ----------------------- #
 
 info:
-  location: Rio de Janeiro
+  location: Porto Alegre
   code: Ruby, JS, Go, Elixir, Haskell # Programmer? Put your programming languages and technologies here
-  company: Globo.com
+  company: ThoughtWorks
   university: UESC - Computer Science
-  interests: Funcional programming, Web development, Open Source, Videogames
+  interests: Funcional programming, Web development, Open Source, Video games
   email: contact@robertosoares.me
 
 # ----------------------- #
@@ -36,7 +36,7 @@ social:
   facebook: 
   twitter: bt1
   foursquare:
-  goodreads:
+  goodreads: 10822464-roberto
 # Note about google+: Your googleplus username should be that huge number in your url (example: for https://plus.google.com/u/1/112176414644635750645/posts, your username is 112176414644635750645).
 # For google+ pages, you may find this huge number written down 2 times. We only need it once.
   googleplus: 
