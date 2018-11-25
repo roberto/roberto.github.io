@@ -3,7 +3,7 @@
 # ----------------------- #
 
 name: Roberto Soares
-title: Consultant and Eternal Learner at <a href="http://www.thoughtworks.com/"><b>Thought</b>Works</a>
+title: Lead Consultant at <a href="http://www.thoughtworks.com/"><b>ThoughtWorks</b></a>
 gravatar_email: roberto.tech@gmail.com
 # don't forget to edit your "about" on _includes/about.md
 # for more information about markdown, consider giving a look at some examples and basics in the follow urls:
@@ -17,10 +17,10 @@ gravatar_email: roberto.tech@gmail.com
 
 info:
   location: Porto Alegre
-  code: Ruby, JS, Go, Elixir, Haskell # Programmer? Put your programming languages and technologies here
+  code: JavaScript, TypeScript, Ruby, Elm, Haskell, Go
   company: ThoughtWorks
   university: UESC - Computer Science
-  interests: Funcional programming, Web development, Open Source, Video games
+  interests: Front-end, Open Source, Functional Proramming, Board games, Cycling
   email: contact@robertosoares.me
 
 # ----------------------- #
@@ -44,18 +44,14 @@ social:
   grooveshark: 
   rdio: 
   instagram: 
-  flickr: bt1
+  flickr:
   quora:
   stackoverflow:
   rss:
 
 
 # Now you should put your links.
-
-links:
-  -
-    title: "Resume"
-    url: "http://resume.linkedinlabs.com/k61po2u36"
+# links:
 
 
 # ----------------------- #

@@ -1,1 +1,5 @@
-I graduated from [UESC](http://uesc.br) with a Computer Science degree in 2006, worked at a Brazilian Research Facility called [CEPEDI](http://www.cepedi.org.br/) and cofounded [Techmobil](http://www.techmobil.com.br/), a mobile and web development company. I've also worked at [Bopia](http://bopia.com/) and [Globo.com](http://globo.com/) developing web applications and at [Todobebe Inc](http://www.globalfamilymedia.com/) as Lead Developer.
+My professional education was composed by graduating in Science Computer, working in an IT Research Center and co-founding a company.
+
+Since then, I've been working on several Web applications for different companies like Bopia, Globo, Todobebe, Rackspace and LATAM. I've also given workshops and talks about Web Development, Tests, Continuous Delivery, React, Elm and more.
+
+My current interests are Micro-Frontends, Web Technologies, Evolutionary Architecture, Functional Programming, Type Systems and board games.
